@@ -32,7 +32,7 @@ git commit -m "SWEA 2072 홀수만 더하기"
 <br>
 
 ## File & Directory Setting Guide
-- 폴더명: `week_00`
+- 폴더명: `week_00/성명`
 - 파일명: 공백을 제거한 문제 이름
 - 해당 주차 당번은 `week_00` 폴더에 `README`를 작성하여 문제를 출제
   - 알고리즘 관련 자료
