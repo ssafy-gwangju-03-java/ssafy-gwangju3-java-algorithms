@@ -14,6 +14,7 @@
 
 ## Commit 
 - **플랫폼 문제번호**(없으면 문제 레벨) **문제이름**
+- 여러 문제 한꺼번에 업로드 시 `git add .` 보다는 한 문제씩 업로드 하는것을 권장
 ```
 git commit -m "BOJ 2557 Hello World"
 git commit -m "PG 0 문자열 출력하기"
