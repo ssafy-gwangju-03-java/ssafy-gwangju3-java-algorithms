@@ -29,8 +29,8 @@ git commit -m "SWEA 2072 홀수만 더하기"
 <br>
 
 ## File & Directory Setting Guide
-- 파일명: 공백을 제거한 문제 이름
 - 폴더명: `week_00`
+- 파일명: 공백을 제거한 문제 이름
 ```
 📂 홍길동
  ┣ 📂week_01
