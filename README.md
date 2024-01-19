@@ -1,7 +1,9 @@
 # SSAFY 광주 3반 알고리즘 스터디 (JAVA)
-계속 수정중입니다 ...
-## 🧑‍💻 Members
 
+## 💻 Members
+| [<img src="https://avatars.githubusercontent.com/u/126746542?v=4" width="100">](https://github.com/garamgim) |  [<img src="https://avatars.githubusercontent.com/u/150763254?v=4" width="100">](https://github.com/yjkim9497)| [<img src="https://avatars.githubusercontent.com/u/57222722?v=4" width="100">](https://github.com/jbs3047) | [<img src="https://avatars.githubusercontent.com/u/121501361?v=4" width="100">](https://github.com/souffle1903) | [<img src="https://avatars.githubusercontent.com/u/156279478?v=4" width="100">](https://github.com/Jaewooooon) | 
+| :-----------------------------------: | :---------------------------------------: |:---------------------------------------: | :-----------------------------------: | :------------------------------------: |
+|[김가람 📢](https://github.com/garamgim)|[김연지](https://github.com/yjkim9497)|[전기철](https://github.com/jbs3047)|[정하림](https://github.com/souffle1903)|[최재원](https://github.com/Jaewooooon)|
 <br>
 
 ## ⏰ Rules
