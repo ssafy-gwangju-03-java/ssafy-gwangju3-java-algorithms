@@ -10,5 +10,6 @@ public class B_38_2475 {
 		cnt+=x*x;
 	}
 	System.out.println(cnt%10);
+	sc.close();
 }
 }
