@@ -6,8 +6,8 @@ public class B_33_2754 {
 	String s = sc.nextLine();
 	double a=0;
 	char x = s.charAt(0);
-	char y = s.charAt(1);
 	if(x=='A'){
+		char y = s.charAt(1);
 		a+=4.0;
 		if(y=='+'){
 			a+=0.3;
@@ -20,6 +20,7 @@ public class B_33_2754 {
 		}
 	}
 	else if(x=='B'){
+		char y = s.charAt(1);
 		a+=3.0;
 		if(y=='+'){
 			a+=0.3;
@@ -32,6 +33,7 @@ public class B_33_2754 {
 		}
 	}
 	else if(x=='C'){
+		char y = s.charAt(1);
 		a+=2.0;
 		if(y=='+'){
 			a+=0.3;
@@ -44,6 +46,7 @@ public class B_33_2754 {
 		}
 	}
 	else if(x=='D'){
+		char y = s.charAt(1);
 		a+=1.0;
 		if(y=='+'){
 			a+=0.3;
@@ -56,7 +59,7 @@ public class B_33_2754 {
 		}
 	}
 	else{
-		a+=0.0;
+		a+=0;
 	}
 	System.out.println(a);
 	sc.close();
