@@ -82,12 +82,15 @@ P_02.java  // 순번 2인 프로그래머스 문제
   <tr>
     <td align="center">주차</td>
     <td align="center">알고리즘</td>
-    <td align="center">문제</td>
     <td align="center">문제 수</td>
   </tr>
   <tr>
     <td align="center" width="120px">01</td>
-    <td align="center" width="220px">준비운동 </td>
-    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_01_%EB%B0%B1%EC%A4%80%EC%83%88%EC%8B%B9%EB%AC%B8%EC%A0%9C/1%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">바로가기</a></td>
-    <td align="center" width="120px">38</td>
+    <td align="center" width="220px">준비운동</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_01_%EB%B0%B1%EC%A4%80%EC%83%88%EC%8B%B9%EB%AC%B8%EC%A0%9C/1%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">38</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="120px">02</td>
+    <td align="center" width="220px">문자열</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_02_%EB%AC%B8%EC%9E%90%EC%97%B4/2%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">5</a></td>
   </tr>
