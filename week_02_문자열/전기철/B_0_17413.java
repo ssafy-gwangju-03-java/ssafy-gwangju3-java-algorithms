@@ -10,7 +10,7 @@ public class B_0_17413 {
         StringBuilder q = new StringBuilder();//< > " " 아니면 저장할 저장소
         for(int i=0; i<s.length();i++){
             //String k = s.valueOf(s.charAt(i)); <- 실제 코드
-			String k = new String(); // <- vs코드 에러 방지용
+			String k = new String(); // <- 임시용
             if (chk==1){//역방향
                 if (k.equals("<")){
                     p.append(q.reverse());
