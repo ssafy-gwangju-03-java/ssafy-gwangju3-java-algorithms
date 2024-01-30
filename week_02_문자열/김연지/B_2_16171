@@ -1,0 +1,31 @@
+package baekjoon;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class B_2_16171 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+        String []arr = sc.next().split("");
+        String s2 = sc.next();
+        ArrayList <String> result = new ArrayList <>();
+		for(int i = 0; i < arr.length; i++) {
+			char ch = arr[i].charAt(0);
+			int num = (int)ch;
+			if (num>=97 && num <= 122 || num >= 65 && num <= 90) {
+				result.add(arr[i]);
+			}
+		}
+        String s1 = String.join("",result);
+        if (s1.contains(s2)){
+            System.out.println(1);
+        }else{
+            System.out.println(0);
+        }
+		
+
+	}
+
+}
