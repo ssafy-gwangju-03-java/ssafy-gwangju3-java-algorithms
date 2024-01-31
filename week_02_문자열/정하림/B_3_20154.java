@@ -19,7 +19,9 @@ public class B_3_20154 {
         } else {
             System.out.println("You're the winner?");
         }
+//
 
+// 오류 이유 찾기 
 //        int sum = 0;
 //        for (int i = 0; i < S.length(); i++) {
 //
@@ -30,6 +32,6 @@ public class B_3_20154 {
 //        } else {
 //            System.out.println("You're the winner?");
 //        }
-
+//
     }
 }
