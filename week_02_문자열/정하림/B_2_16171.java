@@ -3,22 +3,21 @@ import java.util.Scanner;
 public class B_2_16171 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String S = sc.next();
+        StringBuilder S_sb = new StringBuilder(sc.next());
         String K = sc.next();
-        StringBuilder sb;
         // 숫자 제거
-        for (int i = 0; i < S.length();) {
+        for (int i = 0; i < S_sb.length();) {
+            // Character.isDigit()
             int ascii;
-            ascii = (int) S.charAt(i);
+            ascii = (int) S_sb.charAt(i);
             if ((int)'0' <= ascii && ascii <= (int) '9') {
-                sb = new StringBuilder(S);
-                sb.deleteCharAt(i);
-                S = sb.toString();
+                S_sb.deleteCharAt(i);
             } else {
                 i++;
             }
         }
-        // 포함 여부
+
+        String S = S_sb.toString();
         if (S.contains(K)) {
             System.out.println(1);
         } else {
