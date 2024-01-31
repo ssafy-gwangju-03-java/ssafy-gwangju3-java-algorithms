@@ -7,31 +7,17 @@ public class B_3_20154 {
 
         Scanner sc = new Scanner(System.in);
         String S = sc.next();
-//
-        int count = 0;
+
+        int sum = 0;
         for (int i = 0; i < S.length(); i++) {
-            if (num.charAt(ABC.indexOf(S.charAt(i))) % 2 == 1) {
-                count++;
-            }
+
+            sum += (int) num.charAt(ABC.indexOf(S.charAt(i)));
         }
-        if (count % 2 == 1) {
+        if (sum % 2 == 1) {
             System.out.println("I'm a winner!");
         } else {
             System.out.println("You're the winner?");
         }
-//
 
-// 오류 이유 찾기 
-//        int sum = 0;
-//        for (int i = 0; i < S.length(); i++) {
-//
-//             sum += num.charAt(ABC.indexOf(S.charAt(i)))
-//        }
-//        if (sum % 2 == 1) {
-//            System.out.println("I'm a winner!");
-//        } else {
-//            System.out.println("You're the winner?");
-//        }
-//
     }
 }
