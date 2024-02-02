@@ -47,6 +47,7 @@ public class B_4_4659 {
             else {
                 System.out.printf("<%s> is not acceptable.\n", password);
             }
+            
         }
     }
 }
