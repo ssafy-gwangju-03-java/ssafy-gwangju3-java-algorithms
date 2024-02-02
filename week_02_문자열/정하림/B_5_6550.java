@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class B_5_6550 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // sc.hasNext()
         while (sc.hasNext()) {
             String[] s = sc.next().split("");
             String t = sc.next();
