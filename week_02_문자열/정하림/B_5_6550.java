@@ -17,9 +17,7 @@ public class B_5_6550 {
                     t = t.substring(t.indexOf(ss)+1);
                 }
             }
-
             System.out.println(result);
-
         }
     }
 }
