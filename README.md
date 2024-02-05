@@ -94,3 +94,8 @@ P_02.java  // 순번 2인 프로그래머스 문제
     <td align="center" width="220px">문자열</td>
     <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_02_%EB%AC%B8%EC%9E%90%EC%97%B4/2%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">5</a></td>
   </tr>
+  <tr>
+    <td align="center" width="120px">03</td>
+    <td align="center" width="220px">수학</td>
+    <td align="center" width="120px"><a href="https://github.com/yjkim9497/YEONJI/blob/master/week_03_%EC%88%98%ED%95%99/3%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">5</a></td>
+  </tr>
