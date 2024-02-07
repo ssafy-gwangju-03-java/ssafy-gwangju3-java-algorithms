@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 
 public class B_3_19532 {
     public static void main(String[] args) throws Exception{
+        // 한번에 받기 따라하기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] text = br.readLine().split(" ");
         int a = Integer.parseInt(text[0]);
