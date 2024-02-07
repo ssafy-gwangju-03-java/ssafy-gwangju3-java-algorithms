@@ -10,7 +10,7 @@ public class B_02_1225 {
 
         for (int i = 0; i < s[0].length(); i++) {
             for (int j = 0; j < s[1].length(); j++) {
-                mySum += Long.parseLong(String.valueOf(s[0].charAt(i))) * Integer.parseInt(String.valueOf(s[1].charAt(j)));
+                mySum += Long.parseLong(String.valueOf(s[0].charAt(i))) * Long.parseLong(String.valueOf(s[1].charAt(j)));
             }
         }
 
