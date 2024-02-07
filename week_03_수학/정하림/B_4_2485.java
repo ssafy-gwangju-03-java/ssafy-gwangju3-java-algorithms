@@ -6,7 +6,7 @@ public class B_4_2485 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        // 현재 나무
+        // 현재 나무 간격
         int KOI1 = sc.nextInt(), KOI2;
         int[] diff = new int[N - 1];
         for (int i = 0; i < (N-1); i++) {
