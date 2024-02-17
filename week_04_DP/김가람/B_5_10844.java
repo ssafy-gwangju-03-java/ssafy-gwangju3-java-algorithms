@@ -23,4 +23,3 @@ public class B_5_10844 {
         System.out.println(Arrays.stream(dp[N-1]).sum() % 1000000000);
     }
 }
-}
