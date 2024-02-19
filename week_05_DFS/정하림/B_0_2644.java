@@ -1,4 +1,4 @@
-package java_study.정하림;
+package java_study.w5;
 
 import java.util.Scanner;
 
