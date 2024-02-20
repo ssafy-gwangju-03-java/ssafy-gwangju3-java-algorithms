@@ -11,6 +11,7 @@ public class B_1_4693 {
     static int w;
     static int h;
     public static void main(String[] args) throws IOException {
+        System.setIn(new FileInputStream("week_05_DFS/최재원/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -57,7 +58,6 @@ public class B_1_4693 {
 
             boolean inRange = (0 <= nr && nr < h && 0 <= nc && nc < w);
             if (inRange && visited[nr][nc] == 0 && arr[nr][nc] == 1) {
-                visited[nr][nc] = 1;
                 dfs(nr, nc, visited);
             }
         }
