@@ -110,3 +110,9 @@ P_2.java  // 순번 2인 프로그래머스 문제
     <td align="center" width="220px">DFS</td>
     <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_05_DFS/5%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">5</a></td>
   </tr>
+  <tr>
+    <td align="center" width="120px">06</td>
+    <td align="center" width="220px">BFS</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_06_BFS/6%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">5</a></td>
+  </tr>
+</table>
