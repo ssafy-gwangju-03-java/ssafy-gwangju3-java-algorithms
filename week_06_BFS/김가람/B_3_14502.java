@@ -47,7 +47,6 @@ public class B_3_14502 {
             }
         }
 
-
         used = new int[safeZone.size()];    // used는 조합 생성 함수 wallMaker를 돌리기 위한 방문 체크 배열
         maxSafety = 0;                      // 0 갯수의 최댓값을 저장할 변수
         wallMaker(0, 0);
