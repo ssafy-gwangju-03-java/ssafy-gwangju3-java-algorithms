@@ -57,7 +57,7 @@ public class B_3_14502 {
     static void wallMaker(int lev, int start) {
         // 3개의 벽이 완성되면 bfs를 실행하여 안전지역의 최댓값을 산출
         if (lev == 3) {
-            bfs(map);
+            bfs();
             return;
         }
 
@@ -77,7 +77,7 @@ public class B_3_14502 {
         }
     }
 
-    private static void bfs(int[][] map) {
+    private static void bfs() {
         // 원상복구용 스택
         Stack<int[]> changed = new Stack<>();
 
