@@ -112,6 +112,26 @@ P_2.java  // 순번 2인 프로그래머스 문제
     <td align="center" width="120px">07</td>
     <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_07_%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/7%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">완전탐색</a></td>
   </tr>
+  <tr>
+    <td align="center" width="120px">08</td>
+    <td align="center" width="120px">투포인터</td>
+  </tr>
+    <tr>
+    <td align="center" width="120px">09</td>
+    <td align="center" width="120px">다익스트라</td>
+  </tr>
+    <tr>
+    <td align="center" width="120px">10</td>
+    <td align="center" width="120px">이분 탐색</td>
+  </tr>
+    <tr>
+    <td align="center" width="120px">11</td>
+    <td align="center" width="120px">유니온 파인드</td>
+  </tr>
+    <tr>
+    <td align="center" width="120px">12</td>
+    <td align="center" width="120px">최소 신장 트리</td>
+  </tr>
 </table>
 
 <br>
