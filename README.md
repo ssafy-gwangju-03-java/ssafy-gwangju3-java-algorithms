@@ -114,7 +114,7 @@ P_2.java  // 순번 2인 프로그래머스 문제
   </tr>
   <tr>
     <td align="center" width="120px">08</td>
-    <td align="center" width="120px">투포인터</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_08_%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/8%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">투포인터</td>
   </tr>
     <tr>
     <td align="center" width="120px">09</td>
