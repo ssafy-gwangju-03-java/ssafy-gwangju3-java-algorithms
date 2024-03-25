@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class B_0_1753 {
+public class B_0_1916 {
     static final int INF = Integer.MAX_VALUE;
     static int N, M, start, end;
     static int[] dis;
