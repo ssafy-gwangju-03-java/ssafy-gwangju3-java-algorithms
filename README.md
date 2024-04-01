@@ -122,7 +122,8 @@ P_2.java  // 순번 2인 프로그래머스 문제
   </tr>
     <tr>
     <td align="center" width="120px">10</td>
-    <td align="center" width="120px">이분 탐색</td>
+    <td align="center" width="120px">
+       <a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_10_%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/10%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">이분 탐색</td>
   </tr>
     <tr>
     <td align="center" width="120px">11</td>
