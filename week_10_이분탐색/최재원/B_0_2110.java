@@ -1,3 +1,5 @@
+package week_10_이분탐색.최재원;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
