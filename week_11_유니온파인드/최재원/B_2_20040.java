@@ -36,11 +36,7 @@ public class B_2_20040 {
     }
 
     static void union(int a, int b) {
-        if (a < b) {
-            p[findSet(b)] = findSet(a);
-        } else {
-            p[findSet(a)] = findSet(b);
-        }
+        p[findSet(a)] = findSet(b);
     }
 
     static int findSet(int x) {
