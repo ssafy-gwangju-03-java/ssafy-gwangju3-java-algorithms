@@ -114,11 +114,11 @@ P_2.java  // 순번 2인 프로그래머스 문제
   </tr>
   <tr>
     <td align="center" width="120px">08</td>
-    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_08_%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/8%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">투포인터</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_08_%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/8%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">투포인터</a></td>
   </tr>
     <tr>
     <td align="center" width="120px">09</td>
-    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_09_%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC/9%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">다익스트라</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_09_%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC/9%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">다익스트라</a></td>
   </tr>
     <tr>
     <td align="center" width="120px">10</td>
@@ -127,11 +127,11 @@ P_2.java  // 순번 2인 프로그래머스 문제
   </tr>
     <tr>
     <td align="center" width="120px">11</td>
-    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_11_%EC%9C%A0%EB%8B%88%EC%98%A8%ED%8C%8C%EC%9D%B8%EB%93%9C/11%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">유니온파인드</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_11_%EC%9C%A0%EB%8B%88%EC%98%A8%ED%8C%8C%EC%9D%B8%EB%93%9C/11%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">유니온파인드</a></td>
   </tr>
     <tr>
     <td align="center" width="120px">12</td>
-    <td align="center" width="120px">최소 신장 트리</td>
+    <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_12_MST/12%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">최소 신장 트리</a></td>
   </tr>
 
 </table>
