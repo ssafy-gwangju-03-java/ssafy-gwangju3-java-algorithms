@@ -18,6 +18,7 @@ public class B_3_1774 {
         V = Integer.parseInt(info[0]);
         M = Integer.parseInt(info[1]);
 
+        // 정점 정보 저장
         int[][] vertices = new int[V + 1][2];
         for (int i = 1; i <= V; i++) {
             String[] coords = br.readLine().split(" ");
@@ -28,6 +29,7 @@ public class B_3_1774 {
 
         edges = new ArrayList<>();
 
+        // 정점 간의 거리 구한 후 간선 정보 모두 저장
         for (int i = 1; i <= V; i++) {
             int[] left = vertices[i];
             for (int j = i + 1; j <= V; j++) {
@@ -39,6 +41,7 @@ public class B_3_1774 {
             }
         }
 
+        // 간선을 가중치 기준으로 정렬
         Collections.sort(edges);
 
         parent = new int[V + 1];
@@ -46,6 +49,7 @@ public class B_3_1774 {
             parent[i] = i;
         }
 
+        // 이미 연결된 통로를 연결처리
         for (int i = 0; i < M; i++) {
             String[] connected = br.readLine().split(" ");
             int s = Integer.parseInt(connected[0]);
@@ -57,7 +61,7 @@ public class B_3_1774 {
         double ans = 0;
         int edgeCnt = 0;
 
-
+        // 가중치 작은 간선 순서로 꺼내어 union (
         for (Edge edge : edges) {
             if (union(edge.s, edge.e)) {
                 ans += edge.w;
