@@ -1,65 +1,73 @@
-package java_study.w12.B_0_1197;
-import java.util.Arrays;
-import java.util.Scanner;
+package java_study.w12.B_2_21924;
 
+import java.util.*;
+
+// 프림
 class Edge implements Comparable<Edge> {
-    int from, to, weight;
+    int to;
+    int weight;
 
-    public Edge(int from, int to, int weight) {
-        this.from = from;
+    public Edge(int to, int weight) {
         this.to = to;
         this.weight = weight;
     }
 
     @Override
     public int compareTo(Edge o) {
-        return Integer.compare(this.weight, o.weight);
+        return this.weight - o.weight;
     }
 }
-
 public class Main {
-    static int V, E;
-    static int[] p;
-    public static void main(String[] args)  {
+    static int N, M; // 건물 N 도로 M
+    static ArrayList<Edge>[] adjl;
+    static long totalCost = 0;
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        V = sc.nextInt();
-        E = sc.nextInt();
+        N = sc.nextInt();
+        M = sc.nextInt();
 
-        Edge[] edges = new Edge[E];
-        for (int i = 0; i < E; i++) {
-            int s = sc.nextInt();
-            int e = sc.nextInt();
-            int w = sc.nextInt();
-            edges[i] = new Edge(s, e, w);
+        adjl = new ArrayList[N + 1];
+        for (int i = 0; i <= N ; i++) adjl[i] = new ArrayList<>();
+
+
+        for (int i = 0; i < M; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+
+            adjl[a].add(new Edge(b, c));
+            adjl[b].add(new Edge(a, c));
+
+            totalCost += c;
         }
-        Arrays.sort(edges);
+        System.out.println(prim());
+    }
 
-        p = new int[V+1];
-        for (int i = 1; i <= V; i++) p[i] = i;
+    private static long prim() {
+        Queue<Edge> pq = new PriorityQueue<>();
+        boolean[] MST = new boolean[N+1];
 
-        int sum = 0, cnt = 0;
-        for (Edge edge : edges) {
-            if (unionSet(edge.from, edge.to)) {
-                sum += edge.weight;
-                cnt++;
-                if (cnt == V-1) break;
+        pq.offer(new Edge(1, 0));
 
+        long sum = 0;
+
+        while (!pq.isEmpty()) {
+            Edge now = pq.poll();
+            int to = now.to;
+            int weight = now.weight;
+
+            if (MST[to]) continue;
+            MST[to] = true;
+            sum += weight;
+
+            for (Edge nxt : adjl[to]) {
+                if (!MST[nxt.to]) pq.offer(nxt);
             }
         }
-        System.out.println(sum);
-
-    }
-    public static Boolean unionSet(int a, int b) {
-        int pa = findSet(a);
-        int pb = findSet(b);
-
-        if (pa == pb) return false;
-        p[pb] = p[pa];
-        return true;
+        for (int i = 1; i <= N; i++) {
+            if (!MST[i]) return -1;
+        }
+        return totalCost - sum;
     }
 
-    public static int findSet(int a) {
-        if (a == p[a]) return a;
-        return p[a] = findSet(p[a]);
-    }
 }
