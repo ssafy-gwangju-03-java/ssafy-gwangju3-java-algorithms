@@ -133,6 +133,10 @@ P_2.java  // 순번 2인 프로그래머스 문제
     <td align="center" width="120px">12</td>
     <td align="center" width="120px"><a href="https://github.com/garamgim/ssafy-gwangju3-java-algorithms/blob/master/week_12_MST/12%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">최소 신장 트리</a></td>
   </tr>
+    <tr>
+    <td align="center" width="120px">13</td>
+    <td align="center" width="120px"><a href="https://github.com/ssafy-gwangju-03-java/ssafy-gwangju3-java-algorithms/blob/master/week_13_%EA%B5%AC%ED%98%841/13%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">구현 1</a></td>
+  </tr>
 
 </table>
 
