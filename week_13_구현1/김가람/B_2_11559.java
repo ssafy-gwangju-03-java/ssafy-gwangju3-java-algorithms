@@ -25,21 +25,17 @@ public class B_2_11559 {
 
             boolean didCombo = false;
 
-            // 배열 전체를 순회하며 visit 체크
-            // 아직 순회하지 않은 구슬을 만나면 bombCheck 함수 호출
+            // 배열 전체를 순회
             for (int i = 0; i < 12; i++) {
                 for (int j = 0; j < 6; j++) {
-                    if (!visited[i][j]) {
-                        if (map[i][j] == '.') {
-                            visited[i][j] = true;
 
-                        // '0'은 뿌요가 터지고 남은 자리이므로 넘어감
-                        } else if (map[i][j] != '0') {
-                            // bombCheck 함수는 뿌요가 4개 이상 만나 터지면 true 반환, 터진 적 없으면 false 반환
-                            if (bombCheck(i, j, map[i][j])) {
-                                didCombo = true;
-                            }
-                        }
+                    // '.' 혹은 '0'(뿌요가 터지고 남은 자리)을 만나면 넘어감
+                    if (map[i][j] == '.' || map[i][j] == 0) continue;
+
+                    // 아직 순회하지 않은 뿌요를 만나면 bombCheck 함수 호출
+                    // bombCheck 함수는 뿌요가 4개 이상 만나 터지면 true 반환, 터진 적 없으면 false 반환
+                    if (!visited[i][j] && bombCheck(i, j, map[i][j])) {
+                        didCombo = true;
                     }
                 }
             }
