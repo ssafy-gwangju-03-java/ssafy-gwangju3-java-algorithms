@@ -137,6 +137,10 @@ P_2.java  // 순번 2인 프로그래머스 문제
     <td align="center" width="120px">13</td>
     <td align="center" width="120px"><a href="https://github.com/ssafy-gwangju-03-java/ssafy-gwangju3-java-algorithms/blob/master/week_13_%EA%B5%AC%ED%98%841/13%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">구현 1</a></td>
   </tr>
+    <tr>
+    <td align="center" width="120px">14</td>
+    <td align="center" width="120px"><a href="https://github.com/ssafy-gwangju-03-java/ssafy-gwangju3-java-algorithms/blob/master/week_14_%EA%B5%AC%ED%98%842/14%EC%A3%BC%EC%B0%A8%EB%AC%B8%EC%A0%9C%EB%AA%A9%EB%A1%9D.md">구현 2</a></td>
+  </tr>
 
 </table>
 
